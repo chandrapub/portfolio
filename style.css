@@ -1,3 +1,7 @@
+body{
+    margin:0;
+    padding: 0;
+}
 .about {
     display: flex;
 
@@ -44,6 +48,10 @@
 .project-title{
     text-align: left;
     font-size: 3rem;
+}
+.sin-project-title{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .projects {
     display: flex;
@@ -112,4 +120,17 @@
 .frontend-title, .backend-title, .others-title {
     font-size: 2rem;
     text-align: center;
+}
+.footer {
+    background-color: slategray;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+}
+.manu-bar {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: ;
 }
