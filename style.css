@@ -1,0 +1,115 @@
+.about {
+    display: flex;
+
+}
+
+.about-me {
+    width: 70%;
+    height: 20%;
+    /* border: black dotted; */
+    padding: 1rem 3rem;
+
+}
+.profile-picture {
+    width: 15%;
+    height: 10%;
+    border: 2px solid green;
+    border-radius: 50%;
+    background-color: lightpink;
+    margin: 1rem 0rem;
+    padding: 0.1rem 0rem;
+    text-align: center;
+}
+
+
+.topnavbar {
+    height: 3rem;
+    background-color: gray;
+}
+
+.topnavbar a {
+    font-size: 2rem;
+    text-decoration: none;
+    float: right;
+    margin: 0rem 1rem;
+    padding: .1rem .1rem;
+
+
+}
+.topnavbar a:hover {
+    color: honeydew;
+    background-color: green;
+
+}
+.project-title{
+    text-align: left;
+    font-size: 3rem;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 2rem;
+}
+.projects > .project {
+    width: 25%;
+    height: 20rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border: 1px solid yellow;
+    margin: 1rem 1.5rem;
+    padding: 1rem 1rem;
+    
+    text-align: center;
+}
+.skills{
+    text-align: center;
+    font-size: 3rem;
+}
+.all-technologies{
+    display: flex;
+    justify-content: center;
+    margin: 0rem 2rem;
+}
+.technologies {
+    width: 33%;
+    height: 22rem;
+    background-color: sienna;
+    margin: 0rem 1rem;
+    padding: 0rem 2rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+    /* display: flex;
+     flex-wrap: wrap; */
+   /* justify-content: center;
+  align-items: center; */
+}
+.frontend-tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.frontend-tech > .tech {
+    width: 8rem;
+    height: 3rem;
+    background-color: skyblue;
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 1rem 0 0 0;
+    font-size: 1.5rem;
+}
+.tech {
+    text-align: center;
+}
+
+.technologies > .tech {
+    width: 8rem;
+    height: 4rem;
+    background-color: skyblue;
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 1rem 0 0 0;
+    font-size: 1.5rem;
+}
+
+.frontend-title, .backend-title, .others-title {
+    font-size: 2rem;
+    text-align: center;
+}
